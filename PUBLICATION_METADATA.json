@@ -1,0 +1,116 @@
+{
+  "schema": "lcuf.publication-documentation/1",
+  "title": "LCUF Type A and Type B Publication Documentation",
+  "prepared": "2026-10-09",
+  "copyright": "Copyright (C) 2026 RUSSELL PHILIP SMITHSON",
+  "copyright_holder": "RUSSELL PHILIP SMITHSON",
+  "license_identifier": "GPL-3.0-only",
+  "license_scope": "New original publication documents and their original metadata/receipts only; sealed corpus contents, supplied sources, frozen references and dependencies retain existing rights.",
+  "license_text": {
+    "standalone_path": "licenses/GPL-3.0-only.txt",
+    "project_notice_and_license": "LICENSE",
+    "canonical_publisher_reference": "https://www.gnu.org/licenses/gpl-3.0.html",
+    "retrieval_source": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-3.0-only.txt",
+    "retrieval_method": "Complete text/plain web extraction; numbered tool prefixes removed; retrieved text preserved.",
+    "standalone_sha256": "c9ad403a25e0b298a2fd0381817cbdc041dce658ab7b26b260ee1febedddb1cc",
+    "license_document_copyright_holder": "Free Software Foundation, Inc.",
+    "license_document_copyright_year": 2007
+  },
+  "editions": [
+    {
+      "type": "A",
+      "corpus_version": "0.1.0",
+      "source_language": "LCUF/0.1",
+      "corpus_directory": "LCUF_RESEARCH_CORPUS_0.1.0",
+      "archive_filename": "LCUF_RESEARCH_CORPUS_A.zip",
+      "archive_bytes": 12287343,
+      "archive_sha256": "41b8c831af8a62ce399f1054d4eb0739d21e4d45fa950ae2b470e6c900668959",
+      "archive_crc_check": "PASS",
+      "preserved_receipt_original_archive_filename": "LCUF_RESEARCH_CORPUS_0.1.0.zip",
+      "archive_display_name_changed_only": true,
+      "documentation": {
+        "document_count": 29,
+        "primary_volume_count": 18,
+        "curated_markdown_words": 41309,
+        "primary_volume_words": 32849
+      },
+      "external_corpus_source_bindings": [
+        {
+          "path": "README.md",
+          "sha256": "c496160c224129f448bbc22033818d0e5cfb7ff8162272ada5ef2daee126adf5"
+        },
+        {
+          "path": "REPRODUCIBILITY.md",
+          "sha256": "e14610f1cab5f28c254dfd4179875e804e37f118bbc2084f2e4331f9a719a898"
+        },
+        {
+          "path": "CORPUS_METADATA.json",
+          "sha256": "d76947d7b9d242c9fbede8fc2da7612a7a7fd888ca0ed453a202f20aa911a5c1"
+        },
+        {
+          "path": "CORPUS_CATALOG.json",
+          "sha256": "3307c406e88df1478d4abd97b34fd061773292b040f7c38cd67534d722e4843a"
+        },
+        {
+          "path": "RELEASE_MANIFEST.json",
+          "sha256": "b2d8f9dca3437aa7c114843c809d4f5c42f7bb0acd40be557de38a2c826e10ba"
+        }
+      ]
+    },
+    {
+      "type": "B",
+      "corpus_version": "0.2.0",
+      "source_language": "LCUF-X/0.2",
+      "corpus_directory": "LCUF_RESEARCH_CORPUS_0.2.0",
+      "archive_filename": "LCUF_RESEARCH_CORPUS_B.zip",
+      "archive_bytes": 14147582,
+      "archive_sha256": "2cc998843b9f027643f78856b3fb96c49320cb33336810e1e254b2366d912071",
+      "archive_crc_check": "PASS",
+      "preserved_receipt_original_archive_filename": "LCUF_RESEARCH_CORPUS_0.2.0.zip",
+      "archive_display_name_changed_only": true,
+      "documentation": {
+        "document_count": 39,
+        "primary_volume_count": 23,
+        "curated_markdown_words": 60775,
+        "primary_volume_words": 49111
+      },
+      "external_corpus_source_bindings": [
+        {
+          "path": "README.md",
+          "sha256": "8e5c5ed457616b7c76fc71b616309a7523af5d6dc4b39d7d058bb06b1267f4f3"
+        },
+        {
+          "path": "REPRODUCIBILITY.md",
+          "sha256": "1e8c77495d7f8aeaea6e66a8c6960fe4d3cafe43e5046b1ea764a084011571d7"
+        },
+        {
+          "path": "CORPUS_METADATA.json",
+          "sha256": "b49d754ca5bac399deada2ec039c7147af0e434addf2c876678a0dff4175cb56"
+        },
+        {
+          "path": "CORPUS_CATALOG.json",
+          "sha256": "94e96e2c27209166779f4163a167ef4f1de6e92ef0d99c0f82f97171da0a75ee"
+        },
+        {
+          "path": "RELEASE_MANIFEST.json",
+          "sha256": "fc69889e7de96e0a9a38d5b1242c7bfd4d968874dc86b9564a5c4fde2587b872"
+        }
+      ]
+    }
+  ],
+  "publication_files": [
+    "README.md",
+    "FULL_DESCRIPTION.md",
+    "LICENSING.md",
+    "LICENSE",
+    "NOTICE",
+    "COPYRIGHT",
+    "licenses/GPL-3.0-only.txt"
+  ],
+  "curated_markdown_words": 3605,
+  "sealed_corpora_modified": false,
+  "corpus_archives_included_in_documentation_zip": false,
+  "source_integrity_and_quickstart_receipt": "validation/SOURCE_INTEGRITY_AND_QUICKSTART.json",
+  "institutional_affiliation": null,
+  "external_peer_review_claimed": false
+}

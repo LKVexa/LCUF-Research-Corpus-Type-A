@@ -1,0 +1,65 @@
+{
+  "schema": "lcuf.publication-manifest/1",
+  "copyright": "Copyright (C) 2026 RUSSELL PHILIP SMITHSON",
+  "algorithm": "SHA-256",
+  "scope": "Unsigned documentation-package byte integrity; manifest self excluded. Corpus archives are external and identified in publication metadata.",
+  "file_count": 11,
+  "bytes": 115330,
+  "files": [
+    {
+      "path": "COPYRIGHT",
+      "bytes": 1383,
+      "sha256": "e636d184158b37484334133f6dec34a2752b11b627bbe88ed17aa3b6e75e66ff"
+    },
+    {
+      "path": "FULL_DESCRIPTION.md",
+      "bytes": 10747,
+      "sha256": "887d509d3effaeeb24160059e5d7ba396823d13c8ddc68e8988e58dd9f61e0e3"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35029,
+      "sha256": "f8b8c6fc35d47bc140b0dccad785671fcfc68c07d403157e5eb7dd75d69d581a"
+    },
+    {
+      "path": "licenses/GPL-3.0-only.txt",
+      "bytes": 34601,
+      "sha256": "c9ad403a25e0b298a2fd0381817cbdc041dce658ab7b26b260ee1febedddb1cc"
+    },
+    {
+      "path": "LICENSING.md",
+      "bytes": 2753,
+      "sha256": "761c6f6c99479d1af6b676ff0c89377daa242e1c21f245c187cabae0efe018dc"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1518,
+      "sha256": "ef5e95c9a3046169d4cb00b31791ede0521147bebedf6a24cbacd1ed3a6c8c78"
+    },
+    {
+      "path": "PUBLICATION_METADATA.json",
+      "bytes": 4705,
+      "sha256": "c1424fd97ce94a40305f2051a8bd7448cafcfb53693efb164739a499eaafe2b7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14625,
+      "sha256": "9137f8c2f16f6e6c3648c32d30cd5cf3d442d182c3eb88bc51a7d6fe0a355148"
+    },
+    {
+      "path": "validation/DOCUMENT_CHECKS.json",
+      "bytes": 716,
+      "sha256": "0a60b714fa36d3175c15b575f8bcac6ad37c4c93c028b0fdcbbf9f351d07435a"
+    },
+    {
+      "path": "validation/INDEPENDENT_PUBLICATION_REVIEW.json",
+      "bytes": 7237,
+      "sha256": "0be4a3e260e76a2db42d4004c9751b6be99f7975ceec45c4e728b6290bde7328"
+    },
+    {
+      "path": "validation/SOURCE_INTEGRITY_AND_QUICKSTART.json",
+      "bytes": 2016,
+      "sha256": "1e69dea2c81714754df2ab6340c12835b901be835168f9a4b61d79942ccaba2b"
+    }
+  ]
+}

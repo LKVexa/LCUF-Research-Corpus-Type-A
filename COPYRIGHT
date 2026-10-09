@@ -1,0 +1,37 @@
+Copyright (C) 2026 RUSSELL PHILIP SMITHSON
+
+PROJECT
+LCUF Type A and Type B Publication Documentation
+
+COVERED ORIGINAL PUBLICATIONS
+README.md
+FULL_DESCRIPTION.md
+LICENSING.md
+NOTICE
+COPYRIGHT
+The project-specific introductory notice in LICENSE
+Original publication metadata and integrity records in this package
+
+LICENSE
+GNU General Public License, version 3 only.
+SPDX-License-Identifier: GPL-3.0-only
+
+These covered publications are free works: you may redistribute and/or
+modify them under the terms of version 3 of the GNU General Public License
+as published by the Free Software Foundation.
+
+They are distributed in the hope that they will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See LICENSE for the complete terms.
+
+THIRD-PARTY MATERIAL
+The GNU GPL text itself is copyright 2007 Free Software Foundation, Inc.
+Its original notice and permission to distribute verbatim copies remain
+intact in LICENSE and licenses/GPL-3.0-only.txt.
+
+Supplied corpus sources, research articles, figures, upstream snapshots,
+frozen references and dependencies retain their respective copyrights and
+license terms. They are outside this publication grant unless an existing
+notice independently places them under a compatible license.
+
+This file does not assert ownership of material authored by third parties.
