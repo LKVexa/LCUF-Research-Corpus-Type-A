@@ -1,0 +1,23 @@
+{
+  "format": "lcuf.archive-integrity/1",
+  "edition": "Type A",
+  "corpus_version": "0.1.0",
+  "archive_filename": "LCUF_RESEARCH_CORPUS_A.zip",
+  "sha256": "41b8c831af8a62ce399f1054d4eb0739d21e4d45fa950ae2b470e6c900668959",
+  "bytes": 12287343,
+  "internal_root": "LCUF_RESEARCH_CORPUS_0.1.0/",
+  "file_entries": 605,
+  "uncompressed_file_bytes": 20052367,
+  "verification": {
+    "status": "PASS",
+    "zip_crc": "PASS",
+    "unique_file_entries": true,
+    "source_file_population_equal": true,
+    "all_member_sha256_equal_to_preserved_release": true,
+    "source_release_modified": false,
+    "archive_modified": false,
+    "date": "2026-10-09"
+  },
+  "scope": "Separate filename and integrity receipt for the current A archive. It does not replace or modify any sealed earlier package receipt, provide a signature, or attest native or network execution.",
+  "publication_files": 12
+}
