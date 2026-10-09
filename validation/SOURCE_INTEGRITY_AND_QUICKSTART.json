@@ -1,0 +1,50 @@
+{
+  "schema": "lcuf.publication-source-checks/1",
+  "copyright": "Copyright (C) 2026 RUSSELL PHILIP SMITHSON",
+  "status": "PASS",
+  "scope": "Fresh read-only corpus integrity and representative README quickstarts; no broad semantic suites rerun for documentation-only changes.",
+  "checks": [
+    {
+      "edition": "A",
+      "command": "python -B runtime/lcuf.py simulate runtime/examples/federated_sum.lcuf",
+      "status": "local_simulation_pass",
+      "native_unikernel_built": false,
+      "network_or_physical_execution": false,
+      "scope": "Fresh one-process host quickstart, no corpus file mutation."
+    },
+    {
+      "edition": "B",
+      "command": "python -B extensions/lcuf_x.py run examples/accept_remote_wire.lcufx",
+      "status": "host_research_pass",
+      "native_unikernel_built": false,
+      "network_or_physical_execution": false,
+      "scope": "Fresh one-process host quickstart, no corpus file mutation."
+    },
+    {
+      "edition": "A",
+      "command": "python -B tools/verify_release.py --deep",
+      "result": {
+        "status": "PASS",
+        "files_checked": 603,
+        "jsonl_copies_parsed": 22509,
+        "manifest_sha256": "b2d8f9dca3437aa7c114843c809d4f5c42f7bb0acd40be557de38a2c826e10ba",
+        "deep_syntax_checked": true,
+        "scope": "Manifest-relative integrity and data/Python syntax; semantic evidence is in named validation receipts. No signature or external certification.",
+        "errors": []
+      }
+    },
+    {
+      "edition": "B",
+      "command": "python -B tools/verify_release.py --deep",
+      "result": {
+        "status": "PASS",
+        "files_checked": 760,
+        "jsonl_copies_parsed": 23069,
+        "manifest_sha256": "fc69889e7de96e0a9a38d5b1242c7bfd4d968874dc86b9564a5c4fde2587b872",
+        "deep_syntax_checked": true,
+        "scope": "Manifest-relative integrity and data/Python syntax; semantic evidence is in named validation receipts. No signature or external certification.",
+        "errors": []
+      }
+    }
+  ]
+}

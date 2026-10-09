@@ -1,0 +1,238 @@
+{
+  "schema": "lcuf.independent-publication-review/1",
+  "prepared": "2026-10-09",
+  "copyright": "Copyright (C) 2026 RUSSELL PHILIP SMITHSON",
+  "license_identifier": "GPL-3.0-only",
+  "reviewer": "publication_review subagent",
+  "status": "PASS",
+  "scope": "Independent technical content review of the new publication documents; local navigation, metadata and archive/source identity checks. License notice/scope consistency is checked as document content; this is not legal advice, ownership adjudication, external peer review or fresh broad semantic suite execution.",
+  "content_review": {
+    "type_and_version_mapping": "PASS",
+    "source_headers_operation_counts_and_profiles": "PASS",
+    "volume_word_dataset_and_test_populations": "PASS",
+    "documented_quickstart_paths_and_host_status": "PASS",
+    "baseline_and_new_evidence_distinguished": "PASS",
+    "native_network_and_physical_limits": "PASS",
+    "JA_foundation_and_unresolved_semantics_preserved": "PASS",
+    "new_publication_license_scope_and_third_party_boundaries": "PASS",
+    "exact_user_copyright_notice": "PASS",
+    "FSF_license_notice_and_full_text_preserved": "PASS"
+  },
+  "local_links_checked": 19,
+  "local_links": [
+    {
+      "source": "README.md",
+      "target": "LICENSE"
+    },
+    {
+      "source": "README.md",
+      "target": "NOTICE"
+    },
+    {
+      "source": "README.md",
+      "target": "COPYRIGHT"
+    },
+    {
+      "source": "README.md",
+      "target": "LICENSING.md"
+    },
+    {
+      "source": "README.md",
+      "target": "FULL_DESCRIPTION.md"
+    },
+    {
+      "source": "README.md",
+      "target": "PUBLICATION_METADATA.json"
+    },
+    {
+      "source": "README.md",
+      "target": "COPYRIGHT"
+    },
+    {
+      "source": "README.md",
+      "target": "LICENSE"
+    },
+    {
+      "source": "README.md",
+      "target": "LICENSING.md"
+    },
+    {
+      "source": "README.md",
+      "target": "NOTICE"
+    },
+    {
+      "source": "FULL_DESCRIPTION.md",
+      "target": "LICENSE"
+    },
+    {
+      "source": "FULL_DESCRIPTION.md",
+      "target": "NOTICE"
+    },
+    {
+      "source": "FULL_DESCRIPTION.md",
+      "target": "COPYRIGHT"
+    },
+    {
+      "source": "FULL_DESCRIPTION.md",
+      "target": "LICENSING.md"
+    },
+    {
+      "source": "LICENSING.md",
+      "target": "COPYRIGHT"
+    },
+    {
+      "source": "LICENSING.md",
+      "target": "LICENSE"
+    },
+    {
+      "source": "LICENSING.md",
+      "target": "licenses/GPL-3.0-only.txt"
+    },
+    {
+      "source": "LICENSING.md",
+      "target": "NOTICE"
+    },
+    {
+      "source": "LICENSING.md",
+      "target": "COPYRIGHT"
+    }
+  ],
+  "metadata_link_resolved": true,
+  "curated_markdown_words_checked": 3605,
+  "edition_identity_checks": [
+    {
+      "edition": "A",
+      "version": "0.1.0",
+      "source_language": "LCUF/0.1",
+      "current_archive": "LCUF_RESEARCH_CORPUS_A.zip",
+      "archive_bytes": 12287343,
+      "archive_sha256": "41b8c831af8a62ce399f1054d4eb0739d21e4d45fa950ae2b470e6c900668959",
+      "archive_entries": 605,
+      "archive_crc_check": "PASS",
+      "source_bindings_checked": 5,
+      "preserved_package_identity_match": true,
+      "documentation_population_match": true
+    },
+    {
+      "edition": "B",
+      "version": "0.2.0",
+      "source_language": "LCUF-X/0.2",
+      "current_archive": "LCUF_RESEARCH_CORPUS_B.zip",
+      "archive_bytes": 14147582,
+      "archive_sha256": "2cc998843b9f027643f78856b3fb96c49320cb33336810e1e254b2366d912071",
+      "archive_entries": 762,
+      "archive_crc_check": "PASS",
+      "source_bindings_checked": 5,
+      "preserved_package_identity_match": true,
+      "documentation_population_match": true
+    }
+  ],
+  "external_source_bindings_checked": [
+    {
+      "edition": "A",
+      "path": "README.md",
+      "sha256": "c496160c224129f448bbc22033818d0e5cfb7ff8162272ada5ef2daee126adf5"
+    },
+    {
+      "edition": "A",
+      "path": "REPRODUCIBILITY.md",
+      "sha256": "e14610f1cab5f28c254dfd4179875e804e37f118bbc2084f2e4331f9a719a898"
+    },
+    {
+      "edition": "A",
+      "path": "CORPUS_METADATA.json",
+      "sha256": "d76947d7b9d242c9fbede8fc2da7612a7a7fd888ca0ed453a202f20aa911a5c1"
+    },
+    {
+      "edition": "A",
+      "path": "CORPUS_CATALOG.json",
+      "sha256": "3307c406e88df1478d4abd97b34fd061773292b040f7c38cd67534d722e4843a"
+    },
+    {
+      "edition": "A",
+      "path": "RELEASE_MANIFEST.json",
+      "sha256": "b2d8f9dca3437aa7c114843c809d4f5c42f7bb0acd40be557de38a2c826e10ba"
+    },
+    {
+      "edition": "B",
+      "path": "README.md",
+      "sha256": "8e5c5ed457616b7c76fc71b616309a7523af5d6dc4b39d7d058bb06b1267f4f3"
+    },
+    {
+      "edition": "B",
+      "path": "REPRODUCIBILITY.md",
+      "sha256": "1e8c77495d7f8aeaea6e66a8c6960fe4d3cafe43e5046b1ea764a084011571d7"
+    },
+    {
+      "edition": "B",
+      "path": "CORPUS_METADATA.json",
+      "sha256": "b49d754ca5bac399deada2ec039c7147af0e434addf2c876678a0dff4175cb56"
+    },
+    {
+      "edition": "B",
+      "path": "CORPUS_CATALOG.json",
+      "sha256": "94e96e2c27209166779f4163a167ef4f1de6e92ef0d99c0f82f97171da0a75ee"
+    },
+    {
+      "edition": "B",
+      "path": "RELEASE_MANIFEST.json",
+      "sha256": "fc69889e7de96e0a9a38d5b1242c7bfd4d968874dc86b9564a5c4fde2587b872"
+    }
+  ],
+  "standalone_license_sha256": "c9ad403a25e0b298a2fd0381817cbdc041dce658ab7b26b260ee1febedddb1cc",
+  "project_LICENSE_contains_unchanged_complete_standalone_text": true,
+  "source_integrity_and_quickstart_receipt": {
+    "path": "validation/SOURCE_INTEGRITY_AND_QUICKSTART.json",
+    "sha256": "1e69dea2c81714754df2ab6340c12835b901be835168f9a4b61d79942ccaba2b",
+    "status": "PASS",
+    "scope": "Reviewed the calling agent's four fresh read-only check results; this review did not rerun those host quickstarts or broad conformance suites."
+  },
+  "reviewed_files": [
+    {
+      "path": "README.md",
+      "bytes": 14625,
+      "sha256": "9137f8c2f16f6e6c3648c32d30cd5cf3d442d182c3eb88bc51a7d6fe0a355148"
+    },
+    {
+      "path": "FULL_DESCRIPTION.md",
+      "bytes": 10747,
+      "sha256": "887d509d3effaeeb24160059e5d7ba396823d13c8ddc68e8988e58dd9f61e0e3"
+    },
+    {
+      "path": "LICENSING.md",
+      "bytes": 2753,
+      "sha256": "761c6f6c99479d1af6b676ff0c89377daa242e1c21f245c187cabae0efe018dc"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35029,
+      "sha256": "f8b8c6fc35d47bc140b0dccad785671fcfc68c07d403157e5eb7dd75d69d581a"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1518,
+      "sha256": "ef5e95c9a3046169d4cb00b31791ede0521147bebedf6a24cbacd1ed3a6c8c78"
+    },
+    {
+      "path": "COPYRIGHT",
+      "bytes": 1383,
+      "sha256": "e636d184158b37484334133f6dec34a2752b11b627bbe88ed17aa3b6e75e66ff"
+    },
+    {
+      "path": "licenses/GPL-3.0-only.txt",
+      "bytes": 34601,
+      "sha256": "c9ad403a25e0b298a2fd0381817cbdc041dce658ab7b26b260ee1febedddb1cc"
+    },
+    {
+      "path": "PUBLICATION_METADATA.json",
+      "bytes": 4705,
+      "sha256": "c1424fd97ce94a40305f2051a8bd7448cafcfb53693efb164739a499eaafe2b7"
+    },
+    {
+      "path": "validation/SOURCE_INTEGRITY_AND_QUICKSTART.json",
+      "bytes": 2016,
+      "sha256": "1e69dea2c81714754df2ab6340c12835b901be835168f9a4b61d79942ccaba2b"
+    }
+  ],
+  "material_issues": []
+}

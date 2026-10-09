@@ -1,0 +1,15 @@
+{
+  "schema": "lcuf.publication-document-checks/1",
+  "copyright": "Copyright (C) 2026 RUSSELL PHILIP SMITHSON",
+  "status": "PASS",
+  "local_document_links_checked": 19,
+  "corpus_and_archive_identities_checked": 12,
+  "exact_owner_notices": true,
+  "gpl_selection": "GPL-3.0-only",
+  "complete_license_sections": 18,
+  "standalone_gpl_text_matches_project_license_suffix": true,
+  "original_fsf_notice_preserved": true,
+  "external_corpus_rights_preserved": true,
+  "scope": "Publication navigation, requested attribution, GPL text/scope consistency and unchanged source/archive identities. Existing corpus legal ownership and broad technical semantics are not newly adjudicated.",
+  "errors": []
+}
